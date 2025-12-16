@@ -19,6 +19,7 @@ public class Emp {
 	private int empno;
 	
 	@Column(name = "id") private String id;
+	
 	@Column(name = "pw") private String pw;
 	
 	@Column(name = "created_at", insertable = false, updatable = false)
